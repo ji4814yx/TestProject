@@ -10,9 +10,13 @@ def camelcase(sentence):
 
 
 def main():
+	banner()
 	sentence = input('Enter your sentence')
 	output = camelcase((sentence))
 	print(output)
-
+def banner():
+	print('Camelcase Program')
 if __name__ == '__main__':
 	main()
+
+
